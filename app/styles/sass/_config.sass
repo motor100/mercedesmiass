@@ -1,0 +1,62 @@
+// USER VARIABLES SECTION
+
+$basiccolor: #111111 // Basic Color
+$accentcolor: #18BE00 // Accent Color
+$fontsize: 16px // Font Size
+$textcolor: #fff // Text Color
+$lineheight: 1.4 // Document Line Height
+$userfont: 'montserrat-regular', sans-serif // User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif // System Font Family
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 24px
+$gutter: $grid-gutter-width
+
+// IMPORT SECTION
+
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss' // Optional Bootstrap Grid
+@import 'node_modules/swiper/swiper-bundle.min' // Swiper bundle
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl)
+  @font-face
+    font-family: $fname
+    font-style: $fstyle
+    font-weight: $fweight
+    src: url($furl) format('woff2')
+
+@include font('montserrat-regular', normal, 400, '../fonts/montserrat-regular.woff2')
+@include font('montserrat-italic', normal, 400, '../fonts/montserrat-italic.woff2')
+@include font('montserrat-light', normal, 400, '../fonts/montserrat-light.woff2')
+@include font('montserrat-medium', normal, 400, '../fonts/montserrat-medium.woff2')
+@include font('montserrat-semibold', normal, 400, '../fonts/montserrat-semibold.woff2')
+@include font('montserrat-bold', normal, 400, '../fonts/montserrat-bold.woff2')
+@include font('playfairdisplay-regular', normal, 400, '../fonts/playfairdisplay-regular.woff2')
+@include font('playfairdisplay-medium', normal, 400, '../fonts/playfairdisplay-medium.woff2')
+@include font('playfairdisplay-semibold', normal, 400, '../fonts/playfairdisplay-semibold.woff2')
+@include font('playfairdisplay-bold', normal, 400, '../fonts/playfairdisplay-bold.woff2')
+
+// GENERAL DOCUMENT STYLES
+
+// ::placeholder
+//   color: #7f7f7f
+
+*
+  box-sizing: border-box
+
+input, textarea
+  outline: none
+
+html
+  font-size: $fontsize
+
+body
+  font-family: $userfont
+  line-height: $lineheight
+  color: $textcolor
+  max-width: 1920px
+  min-width: 320px
+  margin: 0 auto
+  position: relative
+  overflow-x: hidden
