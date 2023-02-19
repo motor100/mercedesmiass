@@ -570,7 +570,6 @@ ul {
     font-size: 38px;
   }
 
-
   .header .logo {
     width: 190px;
   }
@@ -594,7 +593,6 @@ ul {
   .about-section .about-item {
     height: 311px;
   }
-
   .about-section .about-item .text-accent {
     font-size: 28px;
   }
@@ -612,6 +610,10 @@ ul {
     display: initial;
   }
 
+  .services-section .services-item-title {
+    font-size: 22px;
+  }
+
   .footer .footer-top-text {
     font-size: 22px;
   }
@@ -625,7 +627,6 @@ ul {
   .section-title {
     font-size: 38px;
   }
-
   
   .header .top-menu .menu-item {
     padding: 3px 20px
@@ -653,11 +654,9 @@ ul {
     display: none;
   }
 
-
-
-  
-
-
+  .services-section .services-item-title {
+    font-size: 20px;
+  }
 
   .footer .logo {
     width: 140px;
@@ -681,26 +680,10 @@ ul {
     margin: 0 0 34px 0;
     font-size: 34px;
   }
-  // .header .logo,
-  // .mobile-menu .logo {
-  //   margin: 0 0 25px 0;
-  //   text-align: center;
-  // }
-  // .header .logo img,
-  // .mobile-menu .logo img {
-  //   margin: 0 0 5px 0;
-  // }
-  // .header .logo-text,
-  // .mobile-menu .logo-text {
-  //   display: block;
-  // }
   .header .logo {
     width: 140px;
     margin: 0 auto 30px auto;
   }
-  // .header .logo img {
-  //   width: auto;
-  // }
   .header .contacts {
     height: auto;
     margin: 0 auto;
@@ -719,7 +702,7 @@ ul {
     font-size: 52px;
   }
   .main-section .main-subtitle {
-    font-size: 22px;
+    font-size: 42px;
   }
 
   .about-section .about-item {
@@ -737,6 +720,13 @@ ul {
   }
   .about-section .about-item .text-green {
     font-size: 32px;
+  }
+
+  .services-section .services-item {
+    margin: 0 0 34px;
+  }
+  .services-section .services-item-title {
+    font-size: 18px;
   }
 
   .footer {
@@ -758,9 +748,12 @@ ul {
     margin: 0 auto 65px auto;
   }
 
-
   .mobile-menu .logo {
+    width: 140px;
     margin: 0 auto 45px auto;
+  }
+  .mobile-menu .logo img {
+    width: 100%;
   }
 
 }
@@ -795,18 +788,8 @@ ul {
     display: none;
   }
 
-
-
   .footer .map {
     height: 300px;
   }
 
-  // .header .logo img,
-  // .mobile-menu .logo img {
-  //   width: 50px;
-  // }
-  // .header .logo-text,
-  // .mobile-menu .logo-text {
-  //   font-size: 22px;
-  // }
 }
