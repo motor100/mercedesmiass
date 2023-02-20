@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // portfolio slider
   const portfolioSlider = new Swiper('.portfolio-slider', {
+    modules: [Navigation],
     slidesPerView: 1,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
   });
 

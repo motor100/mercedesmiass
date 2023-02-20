@@ -451,7 +451,7 @@ ul {
   transition: all 1s;
 }
 .mobile-menu .menu {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
   padding: 0;
   list-style: none;
 }
@@ -629,7 +629,7 @@ ul {
   }
 
   .footer .logo {
-    width: 140px;
+    width: 170px;
   }
   .footer .footer-top-text {
     font-size: 20px;
@@ -651,7 +651,7 @@ ul {
     font-size: 34px;
   }
   .header .logo {
-    width: 140px;
+    width: 190px;
     margin: 0 auto 30px auto;
   }
   .header .contacts {
@@ -719,8 +719,8 @@ ul {
   }
 
   .mobile-menu .logo {
-    width: 140px;
-    margin: 0 auto 45px auto;
+    width: 190px;
+    margin: 0 auto 40px auto;
   }
   .mobile-menu .logo img {
     width: 100%;
@@ -760,6 +760,17 @@ ul {
 
   .footer .map {
     height: 300px;
+  }
+
+}
+
+@media only screen and (max-width : 360px) {
+  .header .logo {
+    width: 170px;
+  }
+
+  .mobile-menu .logo {
+    width: 170px;
   }
 
 }
