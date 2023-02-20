@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let year = now.getFullYear();
   footerYear.innerText = year;
 
-
   // Мобильное меню
   let burgerMenuWrapper = document.querySelector('.burger-menu-wrapper'),
       mobileMenu = document.querySelector('.mobile-menu'),
@@ -52,8 +51,5 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileMenu.classList.remove('mobile-menu-open');
     burgerMenu.classList.remove('close');
   }
-
-
-  
 
 });
